@@ -1,4 +1,4 @@
-# API Spesifikasion
+# API Specification
 
 ## Authentication
 request :
