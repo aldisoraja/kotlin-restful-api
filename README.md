@@ -48,7 +48,7 @@ response :
 ## Get Baju {id}
 request :
 - Method : GET
-- Endpoint : `/api/baju/{id_baju}`
+- Endpoint : `/api/baju/{id}`
 - Header :
     - Accept: application/json
 - Body :
@@ -111,7 +111,7 @@ response :
 
 request :
 - Method : PUT
-- Endpoint : `/api/baju/{id_baju}`
+- Endpoint : `/api/baju/{id}`
 - Header :
     - Content-Type: application/json
     - Accept: application/json
@@ -147,7 +147,7 @@ response :
 
 request :
 - Method : DELETE
-- Endpoint : `/api/baju/{id_baju}`
+- Endpoint : `/api/baju/{id}`
 - Header :
     - Accept: application/json
 - Body :
