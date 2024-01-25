@@ -1,0 +1,12 @@
+version: '24.0.7'
+
+services:
+  kotlin-restful-api-postgres:
+    container_name: "kotlin-restful-api"
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: aldi2907
+      POSTGRES_USER: postgres
+      POSTGRES_DB: toko
